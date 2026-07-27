@@ -2,7 +2,10 @@
 data/raw/*
 data/processed/*
 data/external/*
+
 !data/raw/.gitkeep
+!data/raw/housing.csv
+
 !data/processed/.gitkeep
 !data/external/.gitkeep
 
