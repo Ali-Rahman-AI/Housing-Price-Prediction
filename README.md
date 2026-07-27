@@ -107,6 +107,16 @@ housing-price-prediction/
 
 ---
 
+## 🛠️ Tech Stack
+
+- Python 3.11
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
 ## 📖 Understanding the Data
 
 Before writing any model code, we sat with the data to understand its personality:
@@ -410,6 +420,36 @@ pytest tests/ -v
 **Result:** 20 tests, all passing.
 
 ---
+
+## 👨‍💻 Author
+
+**Ali Rahman**
+
+AI/ML Project On Housing Price Prediction.
+
+GitHub: https://github.com/Ali-Rahman-AI
+
+
+## 🌿 Git Workflow
+
+This project follows a professional Git branching strategy:
+
+- `main` – Stable production-ready code
+- `dev` – Development branch
+- `feature/*` – Feature-specific branches
+
+All changes are developed in feature branches and merged into `dev` through Pull Requests before reaching `main`.
+
+
+
+## 📌 Future Improvements
+
+- Hyperparameter tuning
+- Model deployment with Flask/FastAPI
+- Interactive prediction interface
+- Docker support
+- CI/CD integration
+
 
 ## 📄 License
 
