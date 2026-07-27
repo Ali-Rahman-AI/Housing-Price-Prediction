@@ -1,0 +1,23 @@
+from setuptools import find_packages, setup
+
+setup(
+    name="housing-price-prediction",
+    version="1.0.0",
+    description="Predict home prices from property characteristics",
+    author="Your Name",
+    packages=find_packages(where="src"),
+    package_dir={"": "src"},
+    python_requires=">=3.9",
+    install_requires=[
+        "pandas>=1.5.0",
+        "numpy>=1.23.0",
+        "scikit-learn>=1.2.0",
+        "matplotlib>=3.6.0",
+        "seaborn>=0.12.0",
+        "pyyaml>=6.0",
+        "joblib>=1.2.0",
+    ],
+    extras_require={
+        "dev": ["pytest>=7.2.0", "jupyter>=1.0.0"]
+    },
+)
